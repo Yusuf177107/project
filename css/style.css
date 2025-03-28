@@ -1,0 +1,1223 @@
+@charset "UTF-8";
+
+.theme {
+    background: var(--button-bg);
+    color: var(--button-text);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: #F9E8C1;
+}
+
+:root {
+    --bg-color: #F0E0B6;
+    --text-color: black;
+    --button-bg: black;
+    --button-text: white;
+}
+
+.dark-mode {
+    --bg-color: #4a4029;
+    --text-color: white;
+    --button-bg: white;
+    --button-text: black;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    transition: background 0.3s, color 0.3s;
+}
+
+.stappenbalk {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.stap {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 14px;
+    flex: 1;
+}
+
+.actief {
+    background: #A3FF7D;
+    color: black;
+    font-weight: bold;
+}
+
+.reserveringsformulier {
+    background: white;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.toevoegen-knop {
+    background: #3E2F2F;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.aantal-selector input {
+    font-size: 18px;
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+}
+
+.volgende-knop {
+    display: block;
+    background: #3E2F2F;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    margin: 30px auto;
+    border-radius: 5px;
+}
+.volgende-knop2 {
+    display: block;
+    background: #3E2F2F;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    margin: 30px auto;
+    border-radius: 5px;
+}
+
+.png img {
+    width: 100%;
+    height: 50%;
+}
+
+.text {
+    text-align: center;
+    padding: 30px;
+}
+
+.btn {
+    background: #BA8457;
+    border-radius: 1000px;
+    padding: 10px 45px;
+    color: #ffffff;
+    font: normal bold 20px/1 "Open Sans", sans-serif;
+    text-decoration: none;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    display: inline-block; 
+    align-self: center;
+}
+
+.btn a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.btn a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.btn a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.btn a:hover {
+    background: #7F5B3C;
+    text-decoration: none;
+}
+
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 90vw;
+}
+
+header > nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 18px auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+    width: 100vw;
+    background-color: #3A2E32;
+}
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.omaskost{
+    width: 8vw;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #F9E8C1;
+}
+
+.zee {
+    display: block;
+    text-align: center;
+    margin: 50px;
+}
+
+.top-meals-page section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    justify-content: center;
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+.top-meals-page article {
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.top-meals-page article:hover {
+    transform: scale(1.02); 
+}
+
+.top-meals-page img {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+    min-height: 200px;
+    transition: transform 0.2s ease; 
+}
+
+.top-meals-page img:hover {
+    transform: scale(1.05); 
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3a2f33;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+  
+footer img {
+    max-width: 200px;
+    height: auto;
+}
+  
+footer p {
+    text-align: right;
+    line-height: 1.5;
+    margin: 0;
+}
+  
+footer i {
+    font-size: 25px;
+    margin-left: 10px;
+    color: white;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+  
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.order-button-container {
+    text-align: center;
+    margin-top: 20px; 
+}
+
+.order-button {
+    background-color: #BA8457; 
+    color: white; 
+    padding: 15px 30px;
+    font-size: 18px; 
+    border: none; 
+    border-radius: 12px;
+    text-decoration: none; 
+    display: inline-block;
+    transition: background-color 0.3s ease; 
+}
+
+.order-button:hover {
+    background-color: #9E6B46; 
+}
+
+.top-meals-page article.selected {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.5);
+    border-radius: 10px;
+    outline: 3px solid #4CAF50;
+}
+.menu-icon {
+    display: none;
+}
+.openings-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.openings-info h1 {
+    color: black;
+}
+
+
+.openings-box {
+    background-color: #BA8457; 
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    color: black;
+    font-size: 18px;
+    max-width: 250px;
+    text-align: center;
+    border: 2px solid black; 
+}
+
+
+.restaurant-image img {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    border: none;
+}
+.mannen {
+    color: white; 
+}
+
+.map-section {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.address {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black; 
+}
+
+iframe {
+    width: 100vw; 
+    height: 450px; 
+    border: none;
+}
+.top-meals-page article.selected {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.5);
+    border-radius: 10px;
+    outline: 3px solid #4CAF50;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; 
+}
+* {
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 480px) {
+    nav {
+        display: none;
+    }   
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        height: auto;
+        background-color: #3A2E32;
+        width: 100vw;
+    }
+
+    .omaskost {
+        width: 25vw;
+    }
+
+    nav.show-menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #3A2E32;
+        position: fixed;
+        top: 55px; 
+        left: 0;
+        z-index: 1000;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        border-bottom: 1px solid #555;
+    }
+
+    .menu-icon {
+        display: block;
+        background: none;
+        border: none;
+        color: white;
+        font-size: 30px;
+        cursor: pointer;
+        z-index: 2000;
+    }
+    
+    .top-meals-page section {
+        display: grid;
+        grid-template-columns: 1fr; 
+        gap: 20px;
+        justify-content: center;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .top-meals-page article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top-meals-page img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .drinks {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        justify-content: center;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+   
+    .order-button-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .order-button {
+        background-color: #BA8457;
+        color: white;
+        padding: 15px 30px;
+        font-size: 18px;
+        border: none;
+        border-radius: 12px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+
+    .order-button:hover {
+        background-color: #9E6B46;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        background-color: #3a2f33;
+        color: white;
+        padding: 20px;  
+        width: 100vw; 
+        box-sizing: border-box; 
+    }
+
+    footer img {
+        max-width: 150px;
+        margin: 0 auto;
+    }
+
+    .footer-info {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer p {
+        margin: 5px 0;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    footer i {
+        font-size: 25px;
+        color: white;
+    }
+    .openings-info {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+    
+   
+    .openings-box {
+        max-width: 100%;
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    
+    .restaurant-image img {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+
+    .map-section iframe {
+        width: 100%;
+        height: 350px;
+    }
+    
+    
+    .address {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+   
+    .page-title {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    nav.show-menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #3A2E32;
+        position: fixed;
+        top: 65px; 
+        left: 0;
+        z-index: 1000;
+    }
+    nav {
+        display: none;
+    }
+
+    nav a {
+        display: block;
+        padding: 15px;
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        border-bottom: 1px solid #555;
+    }
+   
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 20px;
+        height: 12vh;
+    }
+
+    .omaskost {
+        width: 15vw;
+        max-width: 80px; 
+    }
+
+    .menu-icon {
+        display: block;
+        background: none;
+        border: none;
+        color: white;
+        font-size: 30px;
+        cursor: pointer;
+        z-index: 2000;
+    }
+    
+    .top-meals-page section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        justify-content: center;
+    }
+
+    footer {
+        width: 100vw;
+    }
+
+    .order-button-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .openingstijden-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .openingstijden-box {
+        width: 60%;
+        margin-bottom: 20px;
+    }
+
+    .restaurant-image {
+        width: 80%;
+    }
+}
+#kinderen{
+    display: none
+}
+ 
+#kinderen.show {
+    display: block;
+}
+
+.stappenbalk {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.stap {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 14px;
+    flex: 1;
+}
+
+.actief {
+    background: #A3FF7D;
+    color: black;
+    font-weight: bold;
+}
+
+.reserveringsformulier {
+    background: white;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.toevoegen-knop {
+    background: #3E2F2F;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.aantal-selector input {
+    font-size: 18px;
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+}
+
+.volgende-knop {
+    display: block;
+    background: #3E2F2F;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    margin: 30px auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 300px;
+    text-align: left;
+}
+.payment-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.payment-method {
+    margin: 10px 0;
+}
+.hidden {
+    display: none;
+}
+h2 {
+    text-align: center;
+}
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.verzenden {
+    margin-top: 15px;
+    padding: 10px 15px;
+    font-size: 16px;
+    background: #6d4c41;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+.verzenden:hover {
+    background: #543d31;
+}
+.error {
+    color: red;
+    font-size: 14px;
+}
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="date"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.datumPrikker {
+    margin-top: 15px;
+    padding: 10px 15px;
+    font-size: 16px;
+    background: #6d4c41;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.datumPrikker:hover {
+    background: #543d31;
+}
+
+#tijdZien{
+display: none
+}
+
+#tijdZien.show {
+display: block;
+}
+
+.stappenbalk {
+display: flex;
+justify-content: center;
+margin: 30px 0;
+}
+
+.stap {
+background: black;
+color: white;
+padding: 10px 20px;
+margin: 0 5px;
+border-radius: 50px;
+text-align: center;
+font-size: 14px;
+flex: 1;
+}
+
+.actief {
+background: #A3FF7D;
+color: black;
+font-weight: bold;
+}
+
+.reserveringsformulier {
+background: white;
+padding: 20px;
+max-width: 500px;
+margin: 0 auto;
+text-align: center;
+border-radius: 10px;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.toevoegen-knop {
+background: #3E2F2F;
+color: white;
+border: none;
+padding: 10px 15px;
+border-radius: 5px;
+cursor: pointer;
+margin-bottom: 15px;
+}
+
+.aantal-selector input {
+font-size: 18px;
+width: 50px;
+text-align: center;
+padding: 5px;
+}
+
+.volgende-knop {
+display: block;
+background: #3E2F2F;
+color: white;
+border: none;
+padding: 15px 20px;
+font-size: 16px;
+margin: 30px auto;
+border-radius: 5px;
+cursor: pointer;
+}
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 300px;
+    text-align: left;
+}
+h2 {
+    text-align: center;
+}
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.verzenden {
+    margin-top: 15px;
+    padding: 10px 15px;
+    font-size: 16px;
+    background: #6d4c41;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+.verzenden:hover {
+    background: #543d31;
+}
+.error {
+    color: red;
+    font-size: 14px;
+}
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="date"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.datumPrikker {
+    margin-top: 15px;
+    padding: 10px 15px;
+    font-size: 16px;
+    background: #6d4c41;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.datumPrikker:hover {
+    background: #543d31;
+}
+
+#tijdZien{
+display: none
+}
+
+#tijdZien.show {
+display: block;
+}
+
+.stappenbalk {
+display: flex;
+justify-content: center;
+margin: 30px 0;
+}
+
+.stap {
+background: black;
+color: white;
+padding: 10px 20px;
+margin: 0 5px;
+border-radius: 50px;
+text-align: center;
+font-size: 14px;
+flex: 1;
+}
+
+.actief {
+background: #A3FF7D;
+color: black;
+font-weight: bold;
+}
+
+.reserveringsformulier {
+background: white;
+padding: 20px;
+max-width: 500px;
+margin: 0 auto;
+text-align: center;
+border-radius: 10px;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.toevoegen-knop {
+background: #3E2F2F;
+color: white;
+border: none;
+padding: 10px 15px;
+border-radius: 5px;
+cursor: pointer;
+margin-bottom: 15px;
+}
+
+.aantal-selector input {
+font-size: 18px;
+width: 50px;
+text-align: center;
+padding: 5px;
+}
+
+.volgende-knop {
+display: block;
+background: #3E2F2F;
+color: white;
+border: none;
+padding: 15px 20px;
+font-size: 16px;
+margin: 30px auto;
+border-radius: 5px;
+cursor: pointer;
+}
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="date"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.datumPrikker {
+    margin-top: 15px;
+    padding: 10px 15px;
+    font-size: 16px;
+    background: #6d4c41;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.datumPrikker:hover {
+    background: #543d31;
+}
+
+#tijdZien{
+display: none
+}
+
+#tijdZien.show {
+display: block;
+}
+
+.stappenbalk {
+display: flex;
+justify-content: center;
+margin: 30px 0;
+}
+
+.stap {
+background: black;
+color: white;
+padding: 10px 20px;
+margin: 0 5px;
+border-radius: 50px;
+text-align: center;
+font-size: 14px;
+flex: 1;
+}
+
+.actief {
+background: #A3FF7D;
+color: black;
+font-weight: bold;
+}
+
+.reserveringsformulier {
+background: white;
+padding: 20px;
+max-width: 500px;
+margin: 0 auto;
+text-align: center;
+border-radius: 10px;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.toevoegen-knop {
+background: #3E2F2F;
+color: white;
+border: none;
+padding: 10px 15px;
+border-radius: 5px;
+cursor: pointer;
+margin-bottom: 15px;
+}
+
+.aantal-selector input {
+font-size: 18px;
+width: 50px;
+text-align: center;
+padding: 5px;
+} 
+.volgende-knop {
+display: none;
+background: #3E2F2F;
+color: white;
+border: none;
+padding: 15px 20px;
+font-size: 16px;
+margin: 30px auto;
+border-radius: 5px;
+cursor: pointer;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5e6cc;
+}
+.header {
+    background: url('pannenkoek.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+.vacature-box {
+    display: flex;
+    align-items: center;
+    background: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid black;
+    cursor: pointer;
+    transition: border 0.3s;
+}
+.vacature-box img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.vacature-content {
+    flex: 1;
+}
+h2, h3 {
+    margin: 0 0 10px 0;
+}
+.vacature-box.selected {
+    border-color: green;
+}
+.volgende-btn {
+    display: block;
+    background: #3E2F2F;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    margin: 30px auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.png img{
+    width: 100%;
+    height: 50%;
+}
+.text{
+    text-align: center;
+    padding: 30px;
+}
+.btn{
+    background: #BA8457;
+    border-radius: 1000px;
+    padding: 10px 45px;
+    color: #ffffff;
+    font: normal bold 20px/1 "Open Sans", sans-serif;
+    text-decoration: none;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    display: inline-block; 
+    align-self: center;
+
+}
+.btn a:visited{
+    color: white;
+    text-decoration: none;
+}
+.btn a:link{
+    color: white;
+    text-decoration: none;
+}
+.btn a:active{
+    color: white;
+    text-decoration: none;
+
+}
+.btn a:hover{
+    background: #7F5B3C;
+    text-decoration: none;
+}
+ 
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3a2f33;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+ 
+footer img {
+    max-width: 200px;
+    height: auto;
+}
+ 
+footer p {
+    text-align: right;
+    line-height: 1.5;
+    margin: 0;
+}
+ 
+footer i {
+    font-size: 25px;
+    margin-left: 10px;
+    color: white;
+}
+ 
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+ 
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+ 
