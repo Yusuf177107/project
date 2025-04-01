@@ -21,16 +21,13 @@
     <section class="openings-info">
     <article class="openings-box">
         <h3 class="mannen">Onze Openingstijden</h3>
-        <br>
-        <p><strong>Maandag</strong><br>07:00 - 23:00</p>
-        <br>
-        <p><strong>Dinsdag</strong><br>07:00 - 23:00</p>
-        <br>
-        <p><strong>Woensdag</strong><br>07:00 - 23:00</p>
-        <br>
-        <p><strong>Donderdag</strong><br>07:00 - 23:00</p>
-        <br>
-        <p><strong>Vrijdag</strong><br>07:00 - 23:00</p>
+        <ul>
+    <li class="lijst"><strong>Maandag</strong>: 07:00 - 23:00</li>
+    <li class="lijst"><strong>Dinsdag</strong>: 07:00 - 23:00</li>
+    <li class="lijst"><strong>Woensdag</strong>: 07:00 - 23:00</li>
+    <li class="lijst"><strong>Donderdag</strong>: 07:00 - 23:00</li>
+    <li class="lijst"><strong>Vrijdag</strong>: 07:00 - 23:00</li>
+       </ul>
     </article>
     <article class="restaurant-image">
         <img src="images/tufrestaurant.png" alt="Sfeervolle restaurant interieur">
@@ -46,8 +43,6 @@
         referrerpolicy="no-referrer-when-downgrade">
     </iframe>
 </section>
-
-
     </main>
         <?php
         include "footer.php"

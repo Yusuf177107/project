@@ -277,6 +277,7 @@ footer i {
 .order-button-container {
     text-align: center;
     margin-top: 20px; 
+    margin: 5%;
 }
 
 .order-button {
@@ -322,14 +323,20 @@ footer i {
 
 .openings-box {
     background-color: #BA8457; 
-    padding: 20px;
+    padding: 25px;
     border-radius: 15px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     color: black;
     font-size: 18px;
     max-width: 250px;
     text-align: center;
-    border: 2px solid black; 
+    border: 2px solid black;
+    
+}
+
+.lijst{
+    margin: 10%;
+    padding: 4%;
 }
 
 

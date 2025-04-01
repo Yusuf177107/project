@@ -59,14 +59,9 @@
             <p>Sportsdrinken</p>
         </article>
     </section>
-    <br>
-    <br>
     <article class="order-button-container">
         <a href="reserveren.php" class="order-button">Bestel nu</a>
     </article>
-    <br>
-    <br>
-    <br>
     </main> 
         <?php
         include "footer.php"
