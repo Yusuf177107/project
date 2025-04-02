@@ -1,3 +1,3 @@
 <?php
-    echo "hier komt nog een contact pagina";
+    echo "hier komt nog een mijzelf pagina";
 ?>
