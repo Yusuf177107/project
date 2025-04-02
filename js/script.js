@@ -12,7 +12,6 @@ document.addEventListener('DOMContentLoaded', () => {
             const selectedItems = document.querySelectorAll('main section article.selected');
 
             if (selectedItems.length === 0) {
-                event.preventDefault(); 
                 alert('Selecteer eerst een of meer voedsel om te reserveren!');
             } else {
                 window.location.href = 'reserveren.php';

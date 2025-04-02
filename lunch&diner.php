@@ -60,7 +60,7 @@
         </article>
     </section>
     <article class="order-button-container">
-        <a href="reserveren.php" class="order-button">Bestel nu</a>
+        <a href="#" class="order-button">Bestel nu</a>
     </article>
     </main> 
         <?php
