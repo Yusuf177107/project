@@ -1,7 +1,12 @@
 <?php
         include 'header.php';
 ?>
+    <meta name="author" content="Evrim">
+    <script src="js/verzendformulier.js" defer></script>
+
+
 <body>
+    
     <main>
     <section class="stappenbalk">
  <section id="stap" class="stap actief"><span class="checkmark">✔</span> Gezelschap & Allergieën</section>
@@ -33,7 +38,6 @@
     </form>
     <p id="succesMelding" style="color: green; font-weight: bold;"></p>
 </section>
-<script src="js/verzendformulier.js" defer></script>
 
             </section>
 

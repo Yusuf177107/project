@@ -1,6 +1,9 @@
 <?php
         include 'header.php';
 ?>
+    <meta name="author" content="Evrim">
+    <script src="js/showpaymentform.js" defer></script>
+
 <body>
     <main>
     <section class="stappenbalk">
@@ -47,9 +50,6 @@
         </section>
     </section>
     
-
-    <script src="js/showpaymentform.js" defer></script>
-
             </div>
         </div>
     <div class="wrapper"></div>

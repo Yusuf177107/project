@@ -4,23 +4,8 @@
     <meta name="description" content="Vacatures">
     <meta name="keywords" content="HTML, meta tags, voorbeeld, webontwikkeling">
     <meta name="author" content="Evrim">
+    <script src="js/select.js" defer></script>
 <body>
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const boxes = document.querySelectorAll(".vacature-box");
-            const volgendeButton = document.getElementById("volgende");
-            boxes.forEach(box => {
-                box.addEventListener("click", function() {
-                    boxes.forEach(b => b.classList.remove("selected"));
-                    this.classList.add("selected");
-                    volgendeButton.style.display = "block";
-                });
-            });
-            volgendeButton.addEventListener("click", function() {
-                window.location.href = "locatie.php";
-            });
-        });
-    </script>
 </head>
 <img src="images/header.png" alt="">
 <body>

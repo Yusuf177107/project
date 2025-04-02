@@ -637,11 +637,19 @@ html, body {
         width: 80%;
     }
 }
-#kinderen{
-    display: none
+#kinderen {
+    display: none;
 }
- 
+
 #kinderen.show {
+    display: block;
+}
+
+#tijdZien {
+    display: none;
+}
+
+#tijdZien.show {
     display: block;
 }
 
@@ -716,6 +724,7 @@ html, body {
     width: 300px;
     text-align: left;
 }
+
 .payment-container {
     max-width: 400px;
     margin: auto;
@@ -724,20 +733,25 @@ html, body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
+
 .payment-method {
     margin: 10px 0;
 }
+
 .hidden {
     display: none;
 }
-h2 {
+
+h2, h3 {
     text-align: center;
 }
+
 label {
     font-weight: bold;
     display: block;
-    margin-top: 10px;
+    margin-bottom: 10px;
 }
+
 input, textarea {
     width: 100%;
     padding: 10px;
@@ -746,6 +760,7 @@ input, textarea {
     border-radius: 5px;
     font-size: 16px;
 }
+
 .verzenden {
     margin-top: 15px;
     padding: 10px 15px;
@@ -757,18 +772,16 @@ input, textarea {
     cursor: pointer;
     width: 100%;
 }
+
 .verzenden:hover {
     background: #543d31;
 }
+
 .error {
     color: red;
     font-size: 14px;
 }
-label {
-    font-weight: bold;
-    display: block;
-    margin-bottom: 10px;
-}
+
 input[type="date"] {
     padding: 10px;
     border: 1px solid #ccc;
@@ -776,6 +789,7 @@ input[type="date"] {
     font-size: 16px;
     cursor: pointer;
 }
+
 .datumPrikker {
     margin-top: 15px;
     padding: 10px 15px;
@@ -786,328 +800,31 @@ input[type="date"] {
     border-radius: 5px;
     cursor: pointer;
 }
+
 .datumPrikker:hover {
     background: #543d31;
 }
 
-#tijdZien{
-display: none
-}
-
-#tijdZien.show {
-display: block;
-}
-
-.stappenbalk {
-display: flex;
-justify-content: center;
-margin: 30px 0;
-}
-
-.stap {
-background: black;
-color: white;
-padding: 10px 20px;
-margin: 0 5px;
-border-radius: 50px;
-text-align: center;
-font-size: 14px;
-flex: 1;
-}
-
-.actief {
-background: #A3FF7D;
-color: black;
-font-weight: bold;
-}
-
-.reserveringsformulier {
-background: white;
-padding: 20px;
-max-width: 500px;
-margin: 0 auto;
-text-align: center;
-border-radius: 10px;
-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.toevoegen-knop {
-background: #3E2F2F;
-color: white;
-border: none;
-padding: 10px 15px;
-border-radius: 5px;
-cursor: pointer;
-margin-bottom: 15px;
-}
-
-.aantal-selector input {
-font-size: 18px;
-width: 50px;
-text-align: center;
-padding: 5px;
-}
-
-.volgende-knop {
-display: block;
-background: #3E2F2F;
-color: white;
-border: none;
-padding: 15px 20px;
-font-size: 16px;
-margin: 30px auto;
-border-radius: 5px;
-cursor: pointer;
-}
-.container {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    display: inline-block;
-    width: 300px;
-    text-align: left;
-}
-h2 {
-    text-align: center;
-}
-label {
-    font-weight: bold;
-    display: block;
-    margin-top: 10px;
-}
-input, textarea {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-}
-.verzenden {
-    margin-top: 15px;
-    padding: 10px 15px;
-    font-size: 16px;
-    background: #6d4c41;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 100%;
-}
-.verzenden:hover {
-    background: #543d31;
-}
-.error {
-    color: red;
-    font-size: 14px;
-}
-label {
-    font-weight: bold;
-    display: block;
-    margin-bottom: 10px;
-}
-input[type="date"] {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-}
-.datumPrikker {
-    margin-top: 15px;
-    padding: 10px 15px;
-    font-size: 16px;
-    background: #6d4c41;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.datumPrikker:hover {
-    background: #543d31;
-}
-
-#tijdZien{
-display: none
-}
-
-#tijdZien.show {
-display: block;
-}
-
-.stappenbalk {
-display: flex;
-justify-content: center;
-margin: 30px 0;
-}
-
-.stap {
-background: black;
-color: white;
-padding: 10px 20px;
-margin: 0 5px;
-border-radius: 50px;
-text-align: center;
-font-size: 14px;
-flex: 1;
-}
-
-.actief {
-background: #A3FF7D;
-color: black;
-font-weight: bold;
-}
-
-.reserveringsformulier {
-background: white;
-padding: 20px;
-max-width: 500px;
-margin: 0 auto;
-text-align: center;
-border-radius: 10px;
-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.toevoegen-knop {
-background: #3E2F2F;
-color: white;
-border: none;
-padding: 10px 15px;
-border-radius: 5px;
-cursor: pointer;
-margin-bottom: 15px;
-}
-
-.aantal-selector input {
-font-size: 18px;
-width: 50px;
-text-align: center;
-padding: 5px;
-}
-
-.volgende-knop {
-display: block;
-background: #3E2F2F;
-color: white;
-border: none;
-padding: 15px 20px;
-font-size: 16px;
-margin: 30px auto;
-border-radius: 5px;
-cursor: pointer;
-}
-label {
-    font-weight: bold;
-    display: block;
-    margin-bottom: 10px;
-}
-input[type="date"] {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-}
-.datumPrikker {
-    margin-top: 15px;
-    padding: 10px 15px;
-    font-size: 16px;
-    background: #6d4c41;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.datumPrikker:hover {
-    background: #543d31;
-}
-
-#tijdZien{
-display: none
-}
-
-#tijdZien.show {
-display: block;
-}
-
-.stappenbalk {
-display: flex;
-justify-content: center;
-margin: 30px 0;
-}
-
-.stap {
-background: black;
-color: white;
-padding: 10px 20px;
-margin: 0 5px;
-border-radius: 50px;
-text-align: center;
-font-size: 14px;
-flex: 1;
-}
-
-.actief {
-background: #A3FF7D;
-color: black;
-font-weight: bold;
-}
-
-.reserveringsformulier {
-background: white;
-padding: 20px;
-max-width: 500px;
-margin: 0 auto;
-text-align: center;
-border-radius: 10px;
-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.toevoegen-knop {
-background: #3E2F2F;
-color: white;
-border: none;
-padding: 10px 15px;
-border-radius: 5px;
-cursor: pointer;
-margin-bottom: 15px;
-}
-
-.aantal-selector input {
-font-size: 18px;
-width: 50px;
-text-align: center;
-padding: 5px;
-} 
-.volgende-knop {
-display: none;
-background: #3E2F2F;
-color: white;
-border: none;
-padding: 15px 20px;
-font-size: 16px;
-margin: 30px auto;
-border-radius: 5px;
-cursor: pointer;
-}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f5e6cc;
 }
+
 .header {
     background: url('pannenkoek.jpg') no-repeat center center/cover;
     color: white;
     text-align: center;
     padding: 50px 20px;
 }
+
 .container {
     width: 80%;
     margin: auto;
     padding: 20px 0;
 }
+
 .vacature-box {
     display: flex;
     align-items: center;
@@ -1120,21 +837,22 @@ body {
     cursor: pointer;
     transition: border 0.3s;
 }
+
 .vacature-box img {
     width: 150px;
     height: auto;
     border-radius: 5px;
     margin-right: 20px;
 }
+
 .vacature-content {
     flex: 1;
 }
-h2, h3 {
-    margin: 0 0 10px 0;
-}
+
 .vacature-box.selected {
     border-color: green;
 }
+
 .volgende-btn {
     display: block;
     background: #3E2F2F;
@@ -1146,15 +864,18 @@ h2, h3 {
     border-radius: 5px;
     cursor: pointer;
 }
-.png img{
+
+.png img {
     width: 100%;
     height: 50%;
 }
-.text{
+
+.text {
     text-align: center;
     padding: 30px;
 }
-.btn{
+
+.btn {
     background: #BA8457;
     border-radius: 1000px;
     padding: 10px 45px;
@@ -1166,65 +887,16 @@ h2, h3 {
     display: flex;
     justify-content: center;
     text-align: center;
-    display: inline-block; 
+    display: inline-block;
     align-self: center;
+}
 
-}
-.btn a:visited{
+.btn a:visited, .btn a:link, .btn a:active {
     color: white;
     text-decoration: none;
 }
-.btn a:link{
-    color: white;
-    text-decoration: none;
-}
-.btn a:active{
-    color: white;
-    text-decoration: none;
 
-}
-.btn a:hover{
+.btn a:hover {
     background: #7F5B3C;
     text-decoration: none;
 }
- 
-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #3a2f33;
-    color: white;
-    padding: 10px;
-    width: 100%;
-    box-sizing: border-box;
-}
- 
-footer img {
-    max-width: 200px;
-    height: auto;
-}
- 
-footer p {
-    text-align: right;
-    line-height: 1.5;
-    margin: 0;
-}
- 
-footer i {
-    font-size: 25px;
-    margin-left: 10px;
-    color: white;
-}
- 
-.footer-info {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
- 
-.social-icons {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
- 

@@ -5,6 +5,7 @@
 <meta name="description" content="Reserveren">
     <meta name="keywords" content="HTML, meta tags, voorbeeld, webontwikkeling">
     <meta name="author" content="Evrim">
+    <script src="js/showKinderen.js" defer></script>
 
     <main>
     <section class="stappenbalk">
@@ -28,8 +29,6 @@
                     </li>
                     </li>
                 </li>
-
-                <script src="js/showKinderen.js" defer></script>
                 </section>
             </section>
         <a href="reserveren-2.php">

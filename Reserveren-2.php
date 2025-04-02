@@ -1,6 +1,9 @@
 <?php
         include 'header.php';
 ?>
+    <meta name="author" content="Evrim">
+    <script src="js/toon.js" defer></script>
+
 <body>
     <main>
     <section class="stappenbalk">
@@ -29,7 +32,6 @@
     <a href="reserveren-3.php">
                 <button onclick="nextButton()" id="next" class="volgende-knop">Volgende →</button>
                 </a>
-                <script src="js/toon.js" defer></script>
 
 
             </section>

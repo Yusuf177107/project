@@ -1,10 +1,9 @@
 <?php
         include 'header.php';
 ?>
+  <meta name="author" content="evrim">
 <body>
-    <!-- <script>
-        alert("Deze pagina is gemaakt door: Evrim Askan");
-    </script> -->
+   
     <main>
         <section class="png">
             <img src="images/1.png" alt="">
